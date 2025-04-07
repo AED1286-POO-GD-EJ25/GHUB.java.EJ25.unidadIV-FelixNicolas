@@ -7,5 +7,9 @@ public class Principal {
         animales[1] = new Perro();
         animales[2] = new Gato();
         animales[3] = new Pajaro();
+
+         for (int i = 0; i < animales.length; i++) {
+            animales[i].hacerSonido();
+         }
    }
 }

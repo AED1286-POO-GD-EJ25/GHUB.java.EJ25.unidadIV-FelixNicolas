@@ -1,2 +1,6 @@
+./miPrincipal/Gato.java
+./miPrincipal/Perro.java
+./miPrincipal/Pajaro.java
 ./miPrincipal/Principal.java
+./miPrincipal/Animal.java
 ./miTest/AppTest.java
