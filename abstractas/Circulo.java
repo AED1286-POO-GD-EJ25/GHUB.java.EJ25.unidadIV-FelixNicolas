@@ -1,25 +1,20 @@
 package abstractas;
-
-public class Circulo extends FiguraGeometrica {
+public class Circulo extends FiguraGeometrica{
+    //atributos
     private double radio;
-
-    public Circulo() {
+    //constructores
+    public Circulo(){
         super();
-        radio = 0;
     }
-
-    public Circulo(double r) {
-        super();
+    public Circulo(double r){
+        super("Circulo");
         this.radio = r;
     }
-
-    public Circulo(double x, double y, double r) {
-        super(x, y);
+    public Circulo(double x, double y, double r){
+        super("Circulo");
         this.radio = r;
     }
-
-    @Override
-    public double calcularArea() {
-        return Math.PI * radio * radio;
+    public double area(){
+        return Math.PI * Math.pow(radio,2);
     }
 }

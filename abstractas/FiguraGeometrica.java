@@ -1,19 +1,37 @@
 package abstractas;
-
-public abstract class FiguraGeometrica {
+public abstract class FiguraGeometrica{
+    //atributos
     protected double x;
     protected double y;
 
-    public FiguraGeometrica() {
+    protected String nombre;
+    //constructores
+    public FiguraGeometrica(){
         x = 0;
         y = 0;
     }
-
-    public FiguraGeometrica(double x, double y) {
+    public FiguraGeometrica(double x, double y){
         this.x = x;
         this.y = y;
     }
+    public FiguraGeometrica(String nom){
+        this.nombre = nom;
 
-    // Método abstracto que debe ser implementado por todas las clases hijas
-    public abstract double calcularArea();
+    }
+    //método abstractos
+    public abstract double area();
+    //método concreto
+    public static double areaPromedio(FiguraGeometrica arr[] ){
+        double suma = 0;
+        for(int i=0; i<arr.length;i++){
+            suma += arr[i].area();
+
+        }
+        return suma/arr.length;
+
+    }
+    public String toString(){
+        return nombre+ " Area: "+area();
+    }
+    
 }

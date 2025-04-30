@@ -1,7 +1,8 @@
 package miPrincipal;
-
 public class Animal{
     public void hacerSonido(){
-        System.out.println("Animal haciendo sonido");
+        System.out.println("El animal hace un sonido");
+        
     }
+
 }

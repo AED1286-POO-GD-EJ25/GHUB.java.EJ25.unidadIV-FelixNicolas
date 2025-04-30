@@ -1,29 +1,25 @@
 package abstractas;
-
-public class Triangulo extends FiguraGeometrica {
+public class Triangulo extends FiguraGeometrica{
+    //atributos
     private double base;
     private double altura;
-
-    public Triangulo() {
-        super();
-        base = 0;
-        altura = 0;
+    //contructores
+    public Triangulo(){
+        super("Triangulo");
     }
-
-    public Triangulo(double b, double h) {
-        super();
+    public Triangulo(double b, double h){
+        super("Triangulo");
         this.base = b;
         this.altura = h;
     }
-
-    public Triangulo(double x, double y, double b, double h) {
-        super(x, y);
+    public Triangulo(double x, double y, double b, double h){
+        super(x,y);
         this.base = b;
         this.altura = h;
+
     }
 
-    @Override
-    public double calcularArea() {
-        return (base * altura) / 2;
+    public double area(){
+        return base*altura/2;
     }
 }
