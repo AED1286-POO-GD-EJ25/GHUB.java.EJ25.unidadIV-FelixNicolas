@@ -1,3 +1,14 @@
+./desacoplar/PalomaMensajera.java
+./desacoplar/Comunicador.java
+./desacoplar/Util.java
+./desacoplar/TelefonoCelular.java
+./desacoplar/Telegrafo.java
+./desacoplar/Alumno.java
+./desacoplar/MiApp.java
+./desacoplar/Ave.java
+./desacoplar/Reliquia.java
+./desacoplar/Paloma.java
+./desacoplar/Telefono.java
 ./interfases/Dog.java
 ./interfases/Pet.java
 ./interfases/Animal.java
@@ -7,6 +18,7 @@
 ./miPrincipal/Pajaro.java
 ./miPrincipal/Principal.java
 ./miPrincipal/Animal.java
+./miPrincipal/Fecha.java
 ./miTest/AppTest.java
 ./abstractas/Circulo.java
 ./abstractas/Rectangulo.java

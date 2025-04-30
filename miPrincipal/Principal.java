@@ -32,7 +32,6 @@ public class Principal {
         //perro1 = animal1; no es posible
         perro1 = (Perro)animal1;
 
-        Fecha fec = new FechaDetallada(25,2,2009);
         Object obj = new FechaDetallada("3/12/2008");
 
         System.out.println("fec="+fec); //invoca al constructor de fec
